@@ -1,0 +1,1 @@
+Using the shell commands with a #!/bin/bash before, remember just 2 line code
