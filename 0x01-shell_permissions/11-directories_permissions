@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod 333 -d
+chmod -X 333
