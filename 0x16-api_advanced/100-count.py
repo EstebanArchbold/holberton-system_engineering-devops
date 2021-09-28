@@ -19,7 +19,7 @@ def count_words(subreddit, word_list, after="", counter={}, ini=0):
         for item in top:
             for word in counter:
                 counter[word] += item['data']['title'].lower(
-                ).split(' ').count(word.lower())
+                    ).split(' ').count(word.lower())
         if _after is not None:
             count_words(subreddit, word_list, _after, counter, 1)
         else:
